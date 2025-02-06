@@ -1,0 +1,79 @@
+body{
+  height: 100vh;
+  width: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+    background-color: aqua;
+    height: 80vh;
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50%;
+   border-radius: 10px;
+}
+
+.App h3{
+  padding: 80px;
+  margin-top: 70%;
+  color: blueviolet;
+}
+
+.joke{
+   height: 80vh;
+   margin-top: 20px;
+   padding-bottom: 20px;
+}
+
+.btn{
+  background-color: darkmagenta;
+}
+
+p{
+  color: rgb(17, 0, 255);
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .App {
+    height: 60vh;
+    margin-top: 30%;
+  }
+
+  .App h3 {
+    padding: 60px;
+    margin-top: 40%;
+  }
+
+  .joke {
+    height: 60vh;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    height: 50vh;
+    margin-top: 20%;
+  }
+
+  .App h3 {
+    padding: 40px;
+    margin-top: 30%;
+  }
+
+  .joke {
+    height: 50vh;
+    margin-top: 5px;
+  }
+
+  p {
+    padding: 5px;
+    margin: 5px;
+  }
+}
